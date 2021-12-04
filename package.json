@@ -1,0 +1,20 @@
+{
+  "name": "aoc2021",
+  "version": "1.0.0",
+  "description": "Advent Of Code 2021 solutions",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Brandon Newton",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.5.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "@types/node": "^16.11.11",
+    "jest": "^27.4.3",
+    "ts-jest": "^27.0.7"
+  }
+}
