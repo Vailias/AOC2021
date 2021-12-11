@@ -25,4 +25,14 @@ test("loads array correctly.", ()=>{
     expect(testArr[testArr.length-1]).toBe(2682);
 });
 
+describe("Test summation function",()=>{
+    test("Simple sums", ()=>{
+        let testArr = [1,1,1];
+        expect(day1.sumWindow(testArr,3).toString()).toBe("3");
+    });
 
+    test("Simple increasing", ()=>{
+        let testArr = [2,2,2,2,2,2,2];
+        expect(day1.sumWindow(testArr,3).toString()).toBe("6,6,6,6,6")
+    })
+});
